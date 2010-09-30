@@ -26,6 +26,21 @@ $doctype = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www
 $xml_lang = "en"; //OR YOUR CONTRIE
 $lang = "en";// IDEM 
 $title = "My Site" //TITLE OF YOUR SITE
+$http_equiv = "Content-Type";
+$content = "text/html"; //FOR THE PAGE
+$charset = "UTF-8"; // FOR THE CHARACTERS
+$description = " YOUR DESCRIPTION";
+$keywords = "YOUR KEYWORDS";
+$author = "YOUR NAME";
+$admin_email = "YOUR E-MAIL";
+$robots = "all"; //or none for 0 robots
 
-// complete this file later
+//LOGO PROPRIETIES
+$src = "PATH FOR THE LOGO"; 
+
+//RSS PROPRIETIES
+$title_rss = "THE TITLE FOR YOUR RSS"
+$href_rss = "THE PATH OR IS THE XML FILE";
+
+// ||||||||||| END FOR CONFIG FILE |||||||||||
 ?>
