@@ -1,4 +1,5 @@
 <?php
+include("conf/config.php"); //file conf
 if ($esql)
 {
 if ($sql == mysql) //drivers SQL
